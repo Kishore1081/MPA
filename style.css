@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+body
+{
+    font-family: "Racing Sans One", sans-serif;
+}
+.navbar
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(43deg, rgba(0,0,0,1) 0%, rgba(115,15,186,1) 54%, rgba(255,0,224,1) 100%);
+}
+.nav1
+{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.nav1 img
+{
+    height: auto;
+    width: 100px;
+    border-radius: 70px;
+    margin-left: 20px;
+}
+.nav2
+{
+    height: 100%;
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.nav2 a li
+{
+    color: #fff;
+}
+.nav3
+{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav3 button
+{
+    margin-right: 20px;
+    padding: 8px 40px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border: 2px dashed;
+    border-color: #fff;
+    border-radius: 0 15px 0 15px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav3 button:hover
+{
+    background-color: white;
+    color: rgb(255, 0, 255);
+}
+
+
+.content
+{
+    height: 550px;
+    width: 100%;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.con1
+{
+    height: 60%;
+    width: 30%;
+    border: 10px double #fff;
+    color: #fff;
+}
+.con1 button
+{
+    padding: 8px 40px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border: 2px dashed;
+    border-color: #fff;
+    border-radius: 0 15px 0 15px;
+    margin-right: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.con1 button:hover
+{
+    background-color: white;
+    color: blue;
+}
+.con2
+{
+    height: 60%;
+    width: 30%;
+    background-image: url(https://img.freepik.com/free-vector/blue-geometric-frame-illustration_53876-99022.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 30px 0 30px;
+
+}
